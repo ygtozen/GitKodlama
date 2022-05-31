@@ -1,0 +1,50 @@
+git push -u origin manin
+
+#############################
+echo "# GitKodlama" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main (github: microsoft master branchindeydi değiştirdiler bundan sonra master branch'i olmasın main branch'i olsun)
+git remote add origin https://github.com/ygtozen/GitKodlama.git
+git push -u origin main
+###########################################################################
+git clone https://github.com/hamitmizrak/Turkcell_FrontEnd
+
+###########################################################################
+git commit -a -m "add yapmadan gönder : dikkat öncesinde git add dosyaAdi"
+
+###########################################################################
+
+git commit --amend -m "commit yorumlamanı değiştirdim" -> yorumları değiştirme
+
+###########################################################################
+git log
+git status
+
+###########################################################################
+git add dosyaAdi
+git stash
+git stahs list -> var olan listeyi görmek için
+git stash pop -> sondaki elemanı silmek 
+git stahs save "stash_adim44" -> stash adını değiştirme
+
+git stash
+git stash apply stash@{0}
+git stahs drop stash@{0}
+
+###########################################################################
+
+git log --all --decorate --graph --oneline --decorate
+git config --global alias.kisa "log --all --decorate --graph --oneline --decorate"
+git kisa --> bu uzun kodu böyle kısaltabiliriz
+
+
+###########################################################################
+git branch
+git branch --all  -->(kısaltılması) --> git branch -a
+
+DİKKAT: ana branch üzerinde iken her zaman (add commit push) yapmayı unutmayalım
+
+git branch yeniBranchAdi
+git checkout yeniBranchAdi veya (git switch yeniBranchAdi)
