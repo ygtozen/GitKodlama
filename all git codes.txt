@@ -46,5 +46,18 @@ git branch --all  -->(kısaltılması) --> git branch -a
 
 DİKKAT: ana branch üzerinde iken her zaman (add commit push) yapmayı unutmayalım
 
+git status
+git log
+
 git branch yeniBranchAdi
-git checkout yeniBranchAdi veya (git switch yeniBranchAdi)
+git checkout yeniBranchAdi veya bu komutuda kullanabiliriz (git switch yeniBranchAdi)
+
+
+###########################################################################
+
+git checkout -b yeniBranch oluşturDallan
+
+###########################################################################
+# branch silme
+git branch --all
+git branch -d(D) branchAdi --> (Branch'i silmek için kullanıyoruz)
