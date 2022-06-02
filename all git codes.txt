@@ -52,7 +52,7 @@ git log
 git branch yeniBranchAdi
 git checkout yeniBranchAdi veya bu komutuda kullanabiliriz (git switch yeniBranchAdi)
 
-
+kısa yolu -->aşağıda
 ###########################################################################
 
 git checkout -b yeniBranch oluşturDallan
