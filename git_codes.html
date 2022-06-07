@@ -97,6 +97,35 @@ cd /
   CRLF linux sistemine göre yeni satıra geçmek ancak sen windows tasın hatası
   git config core.autocrlf true
 
+  #########################################################
+  git diff d71fa86 0eb9502
+  git difftool d71fa86 0eb9502
+
+  #########################################################################################################33333
+  tag : etiket diyoruz biz projemizde verison oluştururken kullandığımız bir splittir.
+  biz major veya minor versionlarda kullanabilriz.
+
+  tag ile branch arasındaki farklardan bahsedirlir ?
+  branch -> çalıştığımız koldur (local bir yapıya sahiptir) branch ile işimiz bittiğinde biter
+  tag -> Globaldir heryerde kullanırız. genellikle sürümlerde kullanırız
+
+  git tag               ==> tag listele
+  git tag v1.0          ==> v1.0 adında bir tag oluştur
+
+  git tag checkout v1.0 ==> tag'ler arası geçiş
+  git checkout main     ==> tag2ler arasında geçiş
+
+  git tag --delete v1.0 ==> ilgi tag'i silmek
+  
+  git push -u origin main v1.0 ==> push
+
+
+
+  git checkout commitID
+  git checkout branchID
+  git checkout tagID
+
+
 -->
 
 </body>
