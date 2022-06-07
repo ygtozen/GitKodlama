@@ -74,6 +74,26 @@ cd /
     git checkout main
     git merge --no-ff backend
 
+    ################################################33333
+    
+    git ignore: eğer git tarafından takip edilmesini istemedğimiz dizinler varsa bununla 
+    çözümleriz.
+     cat >> .gitignore
+  486  mkdir secret
+  487  cd secret/
+  488   cat >> secret.txt
+  489  clear
+  490  git status
+  491  cd ..
+  492  cat >> .gitignore
+  493  git status
+  494  clear
+  495  git status
+  496  git add .
+  497  git commit -m"gitignore"
+  498  git push -u origin main
+
+
 -->
 
 </body>
